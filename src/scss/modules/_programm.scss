@@ -1,0 +1,72 @@
+.accordion {
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: #edeef0 1px solid;
+  cursor: pointer;
+  width: 350px;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  opacity: 0.85;
+  font-family: "Satoshi";
+  font-weight: 600;
+  font-size: 24px;
+  color: #edeef0;
+}
+
+.accordion img {
+  height: 45px;
+}
+
+.active,
+.accordion:hover {
+  background-image: linear-gradient(
+    -80deg,
+    rgba(35, 38, 43, 0) 0%,
+    #23262b 100%
+  );
+}
+
+.panel {
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0);
+  display: none;
+  width: 500px;
+  overflow: hidden;
+}
+
+.active .programm-arrow,
+.accordion:hover .programm-arrow {
+  rotate: 45deg;
+  transition: 0.2s ease-in-out;
+}
+
+.programm-event {
+  font-family: Satoshi-Medium;
+  font-size: 19px;
+  color: #edeef0;
+  letter-spacing: 1.67px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 10px;
+}
+
+.programm-event-text {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.programm-about-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.accordion p {
+  padding: 35px 0 4px;
+}

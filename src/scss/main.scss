@@ -3,7 +3,8 @@
 @import "modules/header";
 @import "bootstrap/scss/bootstrap-grid";
 @import "modules/nav";
-
+@import "modules/programm";
+@import "modules/exposition";
 @font-face {
   font-family: "Satoshi";
   font-weight: 400;
@@ -19,4 +20,16 @@
   font-family: "Satoshi";
   font-weight: 700;
   src: url("../fonts/Satoshi-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Satoshi-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/Satoshi-LightItalic.woff2") format("woff2");
 }

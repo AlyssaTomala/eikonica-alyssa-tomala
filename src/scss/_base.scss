@@ -43,12 +43,23 @@ video {
 // base rules
 // ==================================== */
 
-h1 {
-  font-family: "degular", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+h2 {
+  font-family: Degular-Black;
+  font-size: 68px;
+  color: #edeef0;
+  line-height: 55px;
+  text-transform: uppercase;
+  padding: 50px 0 50px;
 }
 
+h3 {
+  opacity: 0.68;
+  font-family: Degular-Semibold;
+  font-size: 20px;
+  color: #edeef0;
+  letter-spacing: 1.76px;
+  padding-bottom: 18px;
+}
 /*degular :
 Degular Semibold
 font-family: "degular", sans-serif;

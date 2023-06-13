@@ -1,0 +1,55 @@
+.bg-color {
+  background-image: linear-gradient(
+    -89deg,
+    #2b4fba5a 24%,
+    rgba(102, 136, 224, 0) 93%
+  );
+  height: 600px;
+  position: relative;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  top: 50px;
+}
+
+.exposition {
+  position: relative;
+  z-index: 20;
+}
+
+.exposition p {
+  color: #edeef0;
+  font-size: 16px;
+}
+
+.exposition-introduction-text {
+  padding-bottom: 80px;
+}
+
+.exposition-btn-more p {
+  font-size: 10px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: end;
+  padding-top: 15px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.exposition-btn-more {
+  border-bottom: #edeef0c4 1px solid;
+  margin-top: 10px;
+}
+
+.exposition h3 {
+  padding-top: 10px;
+}
+
+.exposition-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 5px 5px;
+  height: 220px;
+}
