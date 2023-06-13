@@ -1,0 +1,57 @@
+.nav,
+.nav-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  height: 60px;
+  color: #edeef0;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.bgColor {
+  background-color: none;
+  background-image: linear-gradient(
+    -89deg,
+    rgba(79, 97, 209, 0.54) 0%,
+    #3650bd 100%
+  );
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.03);
+}
+
+.nav-logo {
+  padding-left: 40px;
+}
+
+.nav-burger img {
+  height: 18px;
+  padding-right: 40px;
+}
+
+.nav {
+  padding-top: 18px;
+}
+
+.nav-language p {
+  margin: 2.5px;
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-button p {
+  padding: 0 25px;
+}
+
+header {
+  height: 6000px;
+}
