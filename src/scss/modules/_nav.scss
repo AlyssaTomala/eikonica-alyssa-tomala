@@ -43,6 +43,10 @@
   margin: 2.5px;
 }
 
+.nav-language a p:hover {
+  font-weight: 600;
+}
+
 .nav-button {
   display: flex;
   flex-direction: row;
@@ -50,4 +54,8 @@
 
 .nav-button p {
   padding: 0 25px;
+}
+
+.nav-button p:hover {
+  font-weight: 600;
 }

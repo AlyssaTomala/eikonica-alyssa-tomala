@@ -1,0 +1,15 @@
+.foodtrucks p {
+  font-size: 16px;
+  color: #edeef0;
+}
+
+.foodtrucks-text {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-top: 100px;
+}
+
+.foodtrucks-img {
+  height: 300px;
+}

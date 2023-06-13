@@ -1,0 +1,31 @@
+.active .programm-arrow,
+.accordion:hover .programm-arrow {
+  rotate: 45deg;
+  transition: 0.2s ease-in-out;
+}
+
+.programm-event {
+  font-family: Satoshi-Medium;
+  font-size: 19px;
+  color: #edeef0;
+  letter-spacing: 1.67px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 10px;
+}
+
+.programm-event-text {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.programm-about-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.accordion p {
+  padding: 35px 0 4px;
+}
