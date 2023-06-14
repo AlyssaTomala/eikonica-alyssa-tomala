@@ -28,3 +28,13 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+var burger = document.querySelector(".burger-test");
+var navigation = document.querySelector(".burger-nav");
+var openNavigation = function (event) {
+  event.preventDefault();
+  navigation.classList.toggle("is-open");
+  burger.classList.toggle("is-active");
+};
+
+burger.addEventListener("click", openNavigation);

@@ -2,6 +2,11 @@
   height: 16px;
 }
 
+.header-btn-tickets:hover .header-btn-arrow {
+  rotate: 45deg;
+  transition: 0.2s ease-in-out;
+}
+
 h1 {
   font-family: Degular-Black;
   font-size: 85px;
@@ -33,7 +38,7 @@ h1 {
   font-size: 28px;
   color: #edeef0;
   letter-spacing: 0;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .header-btn-tickets a {

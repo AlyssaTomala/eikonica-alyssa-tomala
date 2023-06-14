@@ -19,7 +19,7 @@
 }
 
 .accordion img {
-  height: 45px;
+  height: 40px;
 }
 
 .active,
@@ -41,10 +41,21 @@
 
 .active .information-arrow,
 .accordion:hover .information-arrow {
-  rotate: 45deg;
-  transition: 0.2s ease-in-out;
+  animation-name: arrow;
+  animation-duration: 0.2s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  transition: ease-in-out;
 }
 
+@keyframes arrow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
 .accordion p {
   padding: 35px 0 4px;
 }
@@ -80,6 +91,7 @@
   font-size: 24px;
   font-weight: 600;
   padding-left: 30px;
+  width: 310px;
 }
 
 .programm-about-text {
