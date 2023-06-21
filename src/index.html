@@ -15,7 +15,7 @@
             <div class="col-12">
               <div class="nav" id="navbar">
                 <div class="nav-logo">
-                  <a href="">
+                  <a href="#header">
                     <img src="img/eikonica.svg" alt="" />
                   </a>
                 </div>
@@ -25,9 +25,9 @@
                   <a href=""><p>DE</p></a>
                 </div>
                 <div class="nav-button">
-                  <a href=""><p>Programme</p></a>
-                  <a href=""><p>Expositions</p></a>
-                  <a href=""><p>Billets</p></a>
+                  <a href="#programm"><p>Programme</p></a>
+                  <a href="#expo"><p>Expositions</p></a>
+                  <a href="#tickets"><p>Billets</p></a>
                 </div>
                 <div class="burger-test">
                   <div class="burger-symbol">
@@ -41,9 +41,15 @@
       </div>
     </nav>
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="header-h1">
+      <div id="header" class="container">
+        <div id="accueil" class="row">
+          <div id="eikonica" class="header-h1">
+            <div class="col-12">
+              <div class="header-bob-container">
+                <img class="header-bob" src="gif/bob-header.gif" alt="" />
+              </div>
+            </div>
+
             <div class="col-12">
               <h1>festival</h1>
             </div>
@@ -58,7 +64,7 @@
               curieux.
             </p>
             <div class="header-btn-tickets">
-              <a href="">
+              <a href="#billets">
                 <p class="header-btn-text">billets</p>
                 <img class="header-btn-arrow" src="img/fleche.webp" alt="" />
               </a>
@@ -68,8 +74,8 @@
       </div>
     </header>
     <main>
-      <div class="container programm">
-        <div class="row">
+      <div id="programm" class="container programm">
+        <div id="programme" class="row">
           <div class="programm-text">
             <div class="col-5">
               <h2>programme</h2>
@@ -78,7 +84,7 @@
               <div class="programm-accordions">
                 <div class="programm-accordion">
                   <button class="accordion">
-                    <p>Vendredi 13.10</p>
+                    <p id="vendredi">Vendredi 13.10</p>
                     <img
                       class="programm-arrow"
                       src="img/fleche-bleue.webp"
@@ -153,7 +159,7 @@
                 </div>
                 <div class="programm-accordion">
                   <button class="accordion">
-                    <p>Samedi 14.10</p>
+                    <p id="samedi">Samedi 14.10</p>
                     <img
                       class="programm-arrow"
                       src="img/fleche-bleue.webp"
@@ -228,7 +234,7 @@
                 </div>
                 <div class="programm-accordion">
                   <button class="accordion">
-                    <p>Dimanche 15.10</p>
+                    <p id="dimanche">Dimanche 15.10</p>
                     <img
                       class="programm-arrow"
                       src="img/fleche-bleue.webp"
@@ -305,12 +311,14 @@
               </div>
             </div>
           </div>
-          <div class="programm-img"></div>
+          <div class="programm-img">
+            <div class="gif"><img src="gif/bob-accueil.gif" alt="" /></div>
+          </div>
         </div>
       </div>
-      <div class="container-fluid expo">
+      <div id="expo" class="container-fluid expo">
         <div class="bg-color">
-          <div class="container exposition">
+          <div id="expositions" class="container exposition">
             <div class="row">
               <div class="col-6">
                 <h2>Expositions</h2>
@@ -327,7 +335,7 @@
               <div class="col-4 offset-1">
                 <div class="exposition-article">
                   <div class="exposition-article-text">
-                    <h3>Explorations immersives</h3>
+                    <h3 id="explorations">Explorations immersives</h3>
                     <p>
                       Cette exposition met en avant des installations immersives
                       utilisant la réalité virtuelle et la réalité augmentée
@@ -335,7 +343,11 @@
                       fascinants.
                     </p>
                   </div>
-                  <a class="exposition-btn-more" href="">
+                  <a
+                    class="exposition-btn-more"
+                    target="_blank"
+                    href="https://www.spafribourg.ch/"
+                  >
                     <p>En savoir plus</p>
                   </a>
                 </div>
@@ -343,14 +355,18 @@
               <div class="col-4">
                 <div class="exposition-article">
                   <div class="exposition-article-text">
-                    <h3>Interfaces expérimentales</h3>
+                    <h3 id="interfaces">Interfaces expérimentales</h3>
                     <p>
-                      Le concept de cette exposition et de mettre en avant des
+                      Le concept de cette exposition est de mettre en avant des
                       œuvres d'art interactives qui repoussent les limites de la
                       créativité et de l'engagement du public.
                     </p>
                   </div>
-                  <a class="exposition-btn-more" href="">
+                  <a
+                    class="exposition-btn-more"
+                    target="_blank"
+                    href="https://www.spafribourg.ch/"
+                  >
                     <p>En savoir plus</p>
                   </a>
                 </div>
@@ -358,13 +374,17 @@
               <div class="col-3">
                 <div class="exposition-article">
                   <div class="exposition-article-text">
-                    <h3>Art algorithmique</h3>
+                    <h3 id="art">Art algorithmique</h3>
                     <p>
                       Celle-ci se concentre sur l'art généré par des algorithmes
                       et des processus informatiques.
                     </p>
                   </div>
-                  <a class="exposition-btn-more" href="">
+                  <a
+                    class="exposition-btn-more"
+                    target="_blank"
+                    href="https://www.spafribourg.ch/"
+                  >
                     <p>En savoir plus</p>
                   </a>
                 </div>
@@ -373,7 +393,7 @@
           </div>
         </div>
       </div>
-      <div class="container foodtrucks">
+      <div id="foodtrucks" class="container foodtrucks">
         <div class="row">
           <div class="foodtrucks-text">
             <div class="col-5">
@@ -389,15 +409,17 @@
               </p>
             </div>
           </div>
-          <div class="foodtrucks-img"></div>
+          <div class="col-8">
+            <img src="gif/bob-foodtruck.gif" alt="" />
+          </div>
         </div>
       </div>
-      <div class="container-fluid reservations">
+      <div id="tickets" class="container-fluid reservations">
         <div class="bg-color-reservation">
           <div class="container reservation">
-            <div class="row">
+            <div id="réservations" class="row">
               <div class="col-6">
-                <h2>Réservations</h2>
+                <h2 id="billets">Réservations</h2>
               </div>
               <div class="col-6 offset-1">
                 <p class="reservation-introduction-text">
@@ -405,9 +427,15 @@
                   limitées. Il est fortement conseillé de réserver une place au
                   préalable. En plus de cela, veuillez noter que la réservation
                   des billets pour les concerts se font sur le site internet de
-                  <a class="reservation-btn-frison" href="">frison</a>.
+                  <a
+                    id="concerts"
+                    class="reservation-btn-frison"
+                    target="_blank"
+                    href="https://fri-son.ch/fr"
+                    >fri-son</a
+                  >.
                 </p>
-                <a href=""
+                <a target="_blank" href="https://www.spafribourg.ch/"
                   ><p class="reservation-btn">
                     Davantage d'informations sur les billets et réservations
                     ici.
@@ -418,11 +446,12 @@
               <div class="col-4 offset-1">
                 <div class="reservation-article">
                   <div class="reservation-article-text">
-                    <h3>Ateliers</h3>
+                    <h3 id="ateliers">Ateliers</h3>
                     <a href=""
                       ><p class="reservation-text">
                         Initiation à la réalité virtuelle
                       </p>
+                      <div class="reservation-sep"></div>
                       <p class="reservation-about-text">
                         Activité pour personnes agées
                       </p></a
@@ -464,7 +493,7 @@
               <div class="col-4">
                 <div class="reservation-article">
                   <div class="reservation-article-text">
-                    <h3>Conférences</h3>
+                    <h3 id="conférences">Conférences</h3>
                     <a href=""
                       ><p class="reservation-text-p">
                         Tendances actuelles de l'art numérique
@@ -484,7 +513,7 @@
               <div class="col-3">
                 <div class="reservation-article">
                   <div class="reservation-article-text">
-                    <h3>Expositions</h3>
+                    <h3 id="exposition">Expositions</h3>
                     <a href="">
                       <p class="reservation-text-p">
                         Explorations immersives
@@ -503,15 +532,15 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
+      <div class="container informations">
+        <div id="infos" class="row">
           <div class="col-8">
             <h2 class="information-h2">Infos <br />pratiques</h2>
           </div>
           <div class="col-4 offset-1">
             <div class="programm-accordion">
               <button class="accordion">
-                <p>Lieux</p>
+                <p id="lieux">Lieux</p>
                 <img
                   class="information-arrow"
                   src="img/fleche-bleue.webp"
@@ -528,7 +557,7 @@
             </div>
             <div class="programm-accordion">
               <button class="accordion">
-                <p>Prix</p>
+                <p id="prix">Prix</p>
                 <img
                   class="information-arrow"
                   src="img/fleche-bleue.webp"
@@ -545,7 +574,7 @@
             </div>
             <div class="programm-accordion">
               <button class="accordion">
-                <p>Réservations</p>
+                <p id="réservations-infos">Réservations</p>
                 <img
                   class="information-arrow"
                   src="img/fleche-bleue.webp"
@@ -562,7 +591,7 @@
             </div>
             <div class="programm-accordion">
               <button class="accordion">
-                <p>Transports</p>
+                <p id="transports">Transports</p>
                 <img
                   class="information-arrow"
                   src="img/fleche-bleue.webp"
@@ -580,7 +609,7 @@
             </div>
             <div class="programm-accordion">
               <button class="accordion">
-                <p>Parternaires</p>
+                <p id="partenaires-infos">Partenaires</p>
                 <img
                   class="information-arrow"
                   src="img/fleche-bleue.webp"
@@ -595,6 +624,9 @@
               </div>
             </div>
           </div>
+          <div class="col-6 offset-1">
+            <img class="informations-img" src="gif/bob-infos.gif" alt="" />
+          </div>
         </div>
       </div>
     </main>
@@ -602,7 +634,7 @@
       <div class="container footer">
         <div class="row">
           <div class="col-4">
-            <a href="">
+            <a href="#eikonica">
               <img
                 class="logo logo-eikonica"
                 src="img/eikonica-blanc.svg"
@@ -611,28 +643,28 @@
 
             <div class="row">
               <div class="col-12">
-                <h3>Partenaires</h3>
+                <h3 id="partenaires-infos">Partenaires</h3>
               </div>
               <div class="col-6">
                 <div class="logo-partenaires-gch">
-                  <a href="">
+                  <a target="_blank" href="https://eikon.ch/">
                     <img class="logo logo-eikon" src="img/eikon.svg" alt=""
                   /></a>
-                  <a href="">
+                  <a target="_blank" href="https://www.fri-son.ch/de">
                     <img class="logo logo-frison" src="img/fri-son.svg" alt=""
                   /></a>
                 </div>
               </div>
               <div class="col-6">
                 <div class="logo logo-partenaires">
-                  <a href="">
+                  <a target="_blank" href="https://www.fr.ch/">
                     <img
                       class="logo logo-etatfribourg"
                       src="img/etat-de-fribourg.svg"
                       alt=""
                     />
                   </a>
-                  <a href="">
+                  <a target="_blank" href="https://www.loro.ch/fr">
                     <img
                       class="logo logo-loterie"
                       src="img/lotterie-romande.svg"
@@ -645,12 +677,12 @@
           <div class="col-2 offset-1">
             <h3>Rubriques</h3>
             <div class="footer-text">
-              <a href=""> <p>Accueil</p></a>
-              <a href=""> <p>Programme</p></a>
-              <a href=""><p>Expositions</p></a>
-              <a href=""> <p>Food Trucks</p></a>
-              <a href=""> <p>Réservations</p></a>
-              <a href=""> <p>Infos pratiques</p></a>
+              <a href="#accueil"> <p>Accueil</p></a>
+              <a href="#programme"> <p>Programme</p></a>
+              <a href="#expositions"><p>Expositions</p></a>
+              <a href="#foodtrucks"> <p>Food Trucks</p></a>
+              <a href="#réservations"> <p>Réservations</p></a>
+              <a href="#infos"> <p>Infos pratiques</p></a>
             </div>
           </div>
           <div class="col-4 offset-1">
@@ -671,9 +703,15 @@
                 </div>
                 <div class="col-2 offset-7">
                   <div class="footer-media">
-                    <a href=""> <img src="img/facebook.webp" alt="" /></a>
-                    <a href=""> <img src="img/instagram.webp" alt="" /></a>
-                    <a href=""><img src="img/Linkedin.webp" alt="" /></a>
+                    <a href="https://www.facebook.com/">
+                      <img src="img/facebook.webp" alt=""
+                    /></a>
+                    <a href="https://www.instagram.com/">
+                      <img src="img/instagram.webp" alt=""
+                    /></a>
+                    <a href="https://www.linkedin.com/"
+                      ><img src="img/Linkedin.webp" alt=""
+                    /></a>
                   </div>
                 </div>
               </div>
@@ -691,39 +729,39 @@
                 <div class="col-3 offset-1">
                   <div class="burger-text">
                     <h3>Programme</h3>
-                    <a href="">
+                    <a href="#vendredi">
                       <p class="burger-informations">Vendredi</p>
                     </a>
-                    <a href="">
+                    <a href="#samedi">
                       <p class="burger-informations">Samedi</p>
                     </a>
-                    <a href="">
+                    <a href="#dimanche">
                       <p class="burger-informations">Dimanche</p>
                     </a>
 
                     <h3>Expositions</h3>
-                    <a href="">
+                    <a href="#explorations">
                       <p class="burger-informations">Explorations immersives</p>
                     </a>
-                    <a href="">
+                    <a href="#interfaces">
                       <p class="burger-informations">
                         Interfaces expérimentales
                       </p>
                     </a>
-                    <a href="">
+                    <a href="#art">
                       <p class="burger-informations">Art algorithmique</p>
                     </a>
                     <h3>Réservations</h3>
-                    <a href="">
+                    <a href="#ateliers">
                       <p class="burger-informations">Ateliers</p>
                     </a>
-                    <a href="">
+                    <a href="#conférences">
                       <p class="burger-informations">Conférences</p>
                     </a>
-                    <a href="">
+                    <a href="#expositions">
                       <p class="burger-informations">Expositions</p>
                     </a>
-                    <a href="">
+                    <a href="#concerts">
                       <p class="burger-informations">Concerts</p>
                     </a>
                   </div>
@@ -738,24 +776,30 @@
                       <p class="burger-informations">074 589 38 23</p>
                     </a>
                     <div class="burger-media">
-                      <a href=""> <img src="img/facebook.webp" alt="" /></a>
-                      <a href=""> <img src="img/instagram.webp" alt="" /></a>
-                      <a href=""><img src="img/Linkedin.webp" alt="" /></a>
+                      <a href="https://www.facebook.com/">
+                        <img src="img/facebook.webp" alt=""
+                      /></a>
+                      <a href="https://www.instagram.com/">
+                        <img src="img/instagram.webp" alt=""
+                      /></a>
+                      <a href="https://www.linkedin.com/"
+                        ><img src="img/Linkedin.webp" alt=""
+                      /></a>
                     </div>
                     <h3>Infos pratiques</h3>
-                    <a href="">
+                    <a href="#lieux">
                       <p class="burger-informations">Lieux</p>
                     </a>
-                    <a href="">
+                    <a href="#prix">
                       <p class="burger-informations">Prix</p>
                     </a>
-                    <a href="">
+                    <a href="#réservations-infos">
                       <p class="burger-informations">Réservations</p>
                     </a>
-                    <a href="">
+                    <a href="#transports">
                       <p class="burger-informations">Transports</p>
                     </a>
-                    <a href="">
+                    <a href="#partenaires-infos">
                       <p class="burger-informations">Partenaires</p>
                     </a>
                   </div>
@@ -766,6 +810,7 @@
         </div>
       </div>
     </nav>
+
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

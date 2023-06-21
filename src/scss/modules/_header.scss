@@ -51,3 +51,21 @@ h1 {
 header {
   height: 900px;
 }
+
+.header-bob-container {
+  width: 1025px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 52px;
+}
+
+.header-bob {
+  height: 340px;
+}
+
+@media (min-width: 1440px) {
+  .header-bob-container {
+    width: 1055px;
+  }
+}

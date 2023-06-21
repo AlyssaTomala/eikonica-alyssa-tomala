@@ -91,7 +91,7 @@
   font-size: 24px;
   font-weight: 600;
   padding-left: 30px;
-  width: 310px;
+  width: 310x;
 }
 
 .programm-about-text {
@@ -101,4 +101,14 @@
 
 .accordion p {
   padding: 35px 0 4px;
+}
+
+.programm-img {
+  position: absolute;
+  bottom: -420px;
+  left: 60%;
+}
+
+.programm-img img {
+  height: 350px;
 }

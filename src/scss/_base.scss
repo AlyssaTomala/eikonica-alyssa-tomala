@@ -43,6 +43,9 @@ video {
 // base rules
 // ==================================== */
 
+html {
+  scroll-behavior: smooth;
+}
 h2 {
   font-family: Degular-Black;
   font-size: 68px;
